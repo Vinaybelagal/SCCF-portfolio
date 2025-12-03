@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vinay Kumar B.M | Portfolio</title>
+
+  <!-- Google Font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Poppins:wght@300;400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <style>
+    /* ---- Cyberpunk Grid Background ---- */
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background: #0b0f19;
+      color: #d9e2ff;
+      background-image: linear-gradient(#111827 1px, transparent 1px),
+        linear-gradient(90deg, #111827 1px, transparent 1px);
+      background-size: 40px 40px;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 950px;
+      margin: 40px auto;
+      text-align: left;
+    }
+
+    /* ---- Neon Card ---- */
+    .card {
+      background: rgba(15, 23, 42, 0.65);
+      border: 1px solid rgba(0, 255, 234, 0.35);
+      padding: 32px;
+      margin-bottom: 32px;
+      border-radius: 18px;
+      box-shadow: 0 0 30px rgba(0, 255, 234, 0.25);
+      transition: 0.35s ease;
+    }
+
+    .card:hover {
+      box-shadow: 0 0 45px rgba(0, 255, 234, 0.65);
+      transform: translateY(-4px);
+      border-color: rgba(0, 255, 234, 0.8);
+    }
+
+    /* ---- Profile Layout ---- */
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+    }
+
+    .profile img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid rgba(0, 255, 234, 0.8);
+      box-shadow: 0 0 30px rgba(0, 255, 234, 0.55);
+      flex-shrink: 0;
+    }
+
+    h1 {
+      font-family: "Orbitron", sans-serif;
+      font-size: 36px;
+      letter-spacing: 1.5px;
+      color: #00ffee;
+      margin: 0 0 10px 0;
+    }
+
+    .tagline {
+      color: #94a3b8;
+      font-size: 15px;
+      letter-spacing: 0.5px;
+      margin: 0;
+    }
+
+    .section-title {
+      font-family: "Orbitron", sans-serif;
+      font-size: 22px;
+      margin-bottom: 12px;
+      color: #00ffee;
+      text-transform: uppercase;
+    }
+
+    .card p {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #d1d5db;
+    }
+
+    /* ---- Skills ---- */
+    .skills span {
+      display: inline-block;
+      padding: 8px 16px;
+      margin: 6px 6px 6px 0;
+      border-radius: 10px;
+      border: 1px solid rgba(0, 255, 234, 0.45);
+      background: rgba(0, 255, 234, 0.13);
+      color: #00ffee;
+      font-size: 13px;
+      font-family: "Orbitron", sans-serif;
+    }
+
+    /* ---- Links ---- */
+    a {
+      color: #00ffee;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 36px;
+      font-size: 12px;
+      color: #64748b;
+      text-align: left;
+    }
+
+    @media (max-width: 600px) {
+      .profile {
+        flex-direction: column;
+        gap: 18px;
+      }
+
+      .profile img {
+        width: 140px;
+        height: 140px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    
+    <!-- ⭐ Profile Card (NO RIGHT LOGO) -->
+    <div class="card profile">
+      <img src="/vinay passportsize photo.jpg" alt="Vinay Kumar B.M" />
+      <div>
+        <h1>Vinay Kumar B.M</h1>
+        <p class="tagline">Computer Science · Developer · Game & Web Enthusiast</p>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="card">
+      <div class="section-title">About Me</div>
+      <p>
+        I am a Computer Science student with interest in coding, game development,
+        UI/UX concepts, and building interactive digital experiences.  
+        I love learning new tools and creating real world tech projects.
+      </p>
+    </div>
+
+    <!-- Skills -->
+    <div class="card skills">
+      <div class="section-title">Skills</div>
+      <span>C</span>
+      <span>C++</span>
+      <span>Java</span>
+      <span>Python</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Unity</span>
+    </div>
+
+    <!-- Education -->
+    <div class="card">
+      <div class="section-title">Education</div>
+      <p><b>Degree:</b> B.Tech in Computer Science </p>
+      <p><b>College:</b> GM University </p>
+      <p><b>Location:</b> Davangere, Karnataka </p>
+    </div>
+
+    <!-- Interests -->
+    <div class="card">
+      <div class="section-title">Interests</div>
+      <p>Game Development · Coding · Tech Research · Music · Experiments</p>
+    </div>
+
+    <!-- Contact -->
+    <div class="card">
+      <div class="section-title">Contact</div>
+      <p><b>Phone:</b> 9844582005 </p>
+      <p><b>Email:</b> <a href="mailto:vinaylaptop14@gmail.com">vinaylaptop1234@gmail.com</a></p>
+
+      <p><b>GitHub:</b>
+        <a href="https://github.com/Vinaybelagal" target="_blank">https://github.com/Vinaybelagal</a>
+      </p>
+      <p><b>LinkedIn:</b>
+        <a href="https://www.linkedin.com/in/vinay-kumar-b-m-54506a290" target="_blank">
+          https://www.linkedin.com/in/vinay-kumar-b-m-54506a290
+        </a>
+      </p>
+    </div>
+
+    <footer>© 2025 · Vinay Kumar B.M</footer>
+
+  </div>
+</body>
+</html>
